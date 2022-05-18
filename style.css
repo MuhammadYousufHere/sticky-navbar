@@ -123,9 +123,17 @@ li:hover {
   line-height: 30px;
 }
 @media (max-width: 800px) {
+  nav.active {
+    background-color: transparent;
+    box-shadow: none;
+  }
   nav {
     transition: none;
   }
+  .nav li {
+    color: white;
+  }
+
   nav a,
   nav .container {
     transition: none;
